@@ -49,6 +49,7 @@ body {
 .chat-container {
     background-color: hsl(264, 24%, 96%);
     border-radius: 20px;
+    padding-bottom: 10px;
 }
 
 .chat-heading {
@@ -176,4 +177,22 @@ body {
     border: 1px solid hsl(289, 100%, 72%);
     border-radius: 25px;
     margin: 0 10px;
+}
+
+.msg-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 10px 0;
+    padding: 5px 0 5px 20px;
+    background-color: hsl(0, 0%, 100%);
+    color: lightgray;
+    font-size: 10px;
+    border-radius: 20px;
+}
+
+.chevron-right {
+    margin-right: 5px;
+    background-color: hsl(271, 36%, 24%);
+    border-radius: 20px;
 }
